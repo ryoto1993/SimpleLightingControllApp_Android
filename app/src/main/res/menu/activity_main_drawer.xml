@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_manual_sig_all"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="一律信号値指定"/>
+        <item
+                android:id="@+id/nav_manual_sig_individual"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="独立信号値指定"/>
+    </group>
+
+    <item android:title="設定">
+        <menu>
+            <item
+                    android:id="@+id/nav_ip_setting"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="調光サーバIPアドレス変更"/>
+            <item
+                    android:id="@+id/nav_send"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="調光サーバポート変更"/>
+        </menu>
+    </item>
+
+</menu>

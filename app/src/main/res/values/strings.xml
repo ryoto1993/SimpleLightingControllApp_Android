@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">KC104 調光システム</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="ip_text">IPアドレス</string>
+    <string name="port_text">ポート（初期値：44344）</string>
+    <string name="snackbar_send">信号値を調光サーバに送信しました．</string>
+    <string name="text_white_signal">白色信号値</string>
+    <string name="text_warm_signal">昼白色信号値</string>
+    <string name="text_send_signal">信号値送信</string>
+    <string name="text_pct_0">0 %</string>
+    <string name="text_pct_20">20 %</string>
+    <string name="text_pct_40">40 %</string>
+    <string name="text_pct_60">60 %</string>
+    <string name="text_pct_80">80 %</string>
+    <string name="text_pct_100">100 %</string>
+    <string name="text_control_all">一律信号値指定</string>
+</resources>

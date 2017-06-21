@@ -1,0 +1,192 @@
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/control_layout"
+            tools:context="jp.ac.doshisha.mikilab.tom.kc104.ControlAllFragment">
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/l_1"
+                >
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textSig1"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:text="@string/text_white_signal"/>
+
+                <NumberPicker
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/signalPicker1"
+                        />
+            </LinearLayout>
+
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.9"/>
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textSig2"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/holo_orange_dark"
+                        android:text="@string/text_warm_signal"/>
+
+                <NumberPicker
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/signalPicker2"
+                        />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l_1"
+                android:id="@+id/l_2"
+                android:baselineAligned="false">
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                <Button
+                        android:text="@string/text_pct_100"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/button_w100"
+                        android:minHeight="43dp"/>
+
+                <Button
+                        android:text="@string/text_pct_80"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/button_w80"
+                        android:minHeight="43dp"/>
+
+                <Button
+                        android:text="@string/text_pct_60"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/button_w60"
+                        android:minHeight="43dp"/>
+
+                <Button
+                        android:text="@string/text_pct_40"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/button_w40"
+                        android:minHeight="43dp"/>
+
+                <Button
+                        android:text="@string/text_pct_20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/button_w20"
+                        android:minHeight="43dp"/>
+
+                <Button
+                        android:text="@string/text_pct_0"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/button_w0"
+                        android:minHeight="43dp"/>
+            </LinearLayout>
+
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.9"/>
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                <Button
+                        android:text="@string/text_pct_100"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/button_e100"
+                        android:minHeight="43dp"/>
+
+                <Button
+                        android:text="@string/text_pct_80"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/button_e80"
+                        android:minHeight="43dp"/>
+
+                <Button
+                        android:text="@string/text_pct_60"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/button_e60"
+                        android:minHeight="43dp"/>
+
+                <Button
+                        android:text="@string/text_pct_40"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/button_e40"
+                        android:minHeight="43dp"/>
+
+                <Button
+                        android:text="@string/text_pct_20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/button_e20"
+                        android:minHeight="43dp"/>
+
+                <Button
+                        android:text="@string/text_pct_0"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/button_e0"
+                        android:minHeight="43dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonSendAll"
+                android:layout_below="@+id/l_2"
+                android:layout_alignParentStart="true"
+                android:text="@string/text_send_signal"/>
+
+    </RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KC104 Lighting Control System</string>
+    <string name="ip_text">IP address</string>
+    <string name="port_text">Port (default: 44344)</string>
+    <string name="snackbar_send">Sent signals to server.</string>
+    <string name="text_send_signal">Send Signals</string>
+    <string name="text_warm_signal">Warm Signal</string>
+    <string name="text_white_signal">White Signal</string>
+    <string name="text_control_all">Control All Lights</string>
+</resources>
